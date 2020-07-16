@@ -147,7 +147,7 @@ namespace CharacterList
                             {
                                 Character pLoopOthers = Game.character(iLoopOthers);
 
-                                if (!pLoopOthers.isCourtier() && !pLoopOthers.isLeaderOrSpouseOrHeir())
+                                if (!pLoopOthers.isCourtier() && !pLoopOthers.isLeaderOrSpouseOrHeir() && !pLoopOthers.isSuccessor())
                                 {
                                     UIAttributeTag currentLeaderOtherListTag = characterTabTag.GetSubTag("-OtherList", numOthers);
                                     int iOpinion = pActivePlayer.calculateCharacterOpinionRate(pLoopOthers);

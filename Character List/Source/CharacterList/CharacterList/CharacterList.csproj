@@ -66,6 +66,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetPath)" "C:\Users\Dale\OneDrive\Documents\My Games\OldWorld\Dev\Mods\Character List\" /Y</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetPath)" "C:\Users\Dale\OneDrive\Documents\My Games\OldWorld\Test\Mods\Character List\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>
